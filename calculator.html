@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <input type="text"  value="" placeholder="0" class="screen" id="screen">
+            <div class="parent">
+                <input type="button" value="AC" onclick="divAC()" class="same div0">
+                <input type="button" value="7"  onclick="div7()" class="same div1">
+                <input type="button" value="8"  onclick="div8()" class="same div2">
+                <input type="button" value="9"  onclick="div9()" class="same div3">
+                <input type="button" value="/"  onclick="divD()" class="same div4">
+                <input type="button" value="4"  onclick="div4()" class="same div5">
+                <input type="button" value="5"  onclick="div5()" class="same div6">
+                <input type="button" value="6"  onclick="div6()" class="same div7">
+                <input type="button" value="-"  onclick="divM()" class="same div8">
+                <input type="button" value="1"  onclick="div1()" class="same div9">
+                <input type="button" value="2"  onclick="div2()" class="same div10">
+                <input type="button" value="3"  onclick="div3()" class="same div11">
+                <input type="button" value="+"  onclick="divA()" class="same div12">
+                <input type="button" value="."  onclick="divP()" class="same div13">
+                <input type="button" value="0"  onclick="div0()" class="same div14">
+                <input type="button" value="="  class="same div15" id="div15" onclick="equals()">
+                <input type="button" value="*"  onclick="divMul()" class="same div16">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
